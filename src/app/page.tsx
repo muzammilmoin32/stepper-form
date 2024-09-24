@@ -1,4 +1,3 @@
-import Image from "next/image";
 import UserStepperForm from "./components/pages/Home/Home";
 
 export const metadata = {

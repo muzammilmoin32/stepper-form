@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowLeft, X } from "lucide-react";
 import Budget from "./components/Budget";
@@ -65,7 +65,10 @@ const UserStepperForm: React.FC = () => {
           </button>
           <button
             onClick={handleExit}
-            className="text-black hover:text-gray-900 flex gap-2 items-center"
+            disabled={step === STEP.BUDGET}
+            className={`text-black hover:text-gray-900 flex gap-2 items-center ${
+              step === STEP.BUDGET ? "text-gray-300  hover:text-gray-300" : ""
+            }`}
           >
             <span className="text-xl">Exit</span>
             <X className="h-6 w-6" />

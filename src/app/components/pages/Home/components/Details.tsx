@@ -9,9 +9,10 @@ const Details: React.FC<{
     <h2 className="text-2xl font-bold text-center">Step #2</h2>
     <h3 className="text-xl text-center">Details</h3>
     <p className="text-center text-gray-600">
-      We're thrilled at the opportunity to help you grow your business online.
-      Please let us know the best way to reach you.
+      We&apos;re thrilled at the opportunity to help you grow your business
+      online. Please let us know the best way to reach you.
     </p>
+
     <form onSubmit={handleSubmit} className="space-y-4">
       <div className="flex flex-col">
         <label htmlFor="name">Name</label>
