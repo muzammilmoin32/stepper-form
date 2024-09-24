@@ -23,7 +23,7 @@ const Budget: React.FC<{
       {budgetOptions.map((option) => (
         <button
           key={option}
-          className={`w-full p-3 border text-gray-400 text-center rounded-sm bg-white transition-colors ${
+          className={`w-full p-3 border text-gray-500 text-center rounded-sm bg-white transition-colors ${
             formData.budget === option
               ? "bg-green-100 border-green-500"
               : "hover:bg-gray-100"
