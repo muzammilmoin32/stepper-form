@@ -51,7 +51,7 @@ const Details: React.FC<{
         </div>
       </div>
       <div className="flex flex-col">
-        <label htmlFor="message">Anything else you'd like to share?</label>
+        <label htmlFor="message">Anything else you&apos;d like to share?</label>
         <textarea
           className="w-full p-2 border rounded-sm"
           rows={4}
