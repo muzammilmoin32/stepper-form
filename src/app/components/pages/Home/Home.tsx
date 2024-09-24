@@ -56,8 +56,8 @@ const UserStepperForm: React.FC = () => {
         <div className=" mx-auto px-4 py-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <button
             onClick={handlePrevious}
-            className={`text-black hover:text-gray-900 flex gap-2 items-center ${
-              step === STEP.BUDGET ? "text-gray-300  hover:text-gray-300" : ""
+            className={`text-black  flex gap-2 items-center ${
+              step === STEP.BUDGET && "text-gray-300"
             }`}
             disabled={step === STEP.BUDGET}
           >
@@ -67,8 +67,8 @@ const UserStepperForm: React.FC = () => {
           <button
             onClick={handleExit}
             disabled={step === STEP.BUDGET}
-            className={`text-black hover:text-gray-900 flex gap-2 items-center ${
-              step === STEP.BUDGET ? "text-gray-300  hover:text-gray-300" : ""
+            className={`text-black  flex gap-2 items-center ${
+              step === STEP.BUDGET && "text-gray-300  "
             }`}
           >
             <span className="text-xl">Exit</span>
