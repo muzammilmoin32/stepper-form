@@ -57,7 +57,7 @@ const UserStepperForm: React.FC = () => {
           <button
             onClick={handlePrevious}
             className={`text-black hover:text-gray-900 flex gap-2 items-center ${
-              step === STEP.BUDGET && "text-gray-300  hover:text-gray-300"
+              step === STEP.BUDGET ? "text-gray-300  hover:text-gray-300" : ""
             }`}
             disabled={step === STEP.BUDGET}
           >
@@ -68,7 +68,7 @@ const UserStepperForm: React.FC = () => {
             onClick={handleExit}
             disabled={step === STEP.BUDGET}
             className={`text-black hover:text-gray-900 flex gap-2 items-center ${
-              step === STEP.BUDGET && "text-gray-300  hover:text-gray-300"
+              step === STEP.BUDGET ? "text-gray-300  hover:text-gray-300" : ""
             }`}
           >
             <span className="text-xl">Exit</span>
