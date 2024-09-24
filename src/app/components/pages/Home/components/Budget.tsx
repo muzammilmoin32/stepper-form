@@ -1,4 +1,4 @@
-import { FormData } from "../UserStepperForm";
+import { FormData } from "../Home";
 
 const budgetOptions = [
   "< $1,000/mo",

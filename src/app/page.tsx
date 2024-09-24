@@ -1,5 +1,5 @@
 import Image from "next/image";
-import UserStepperForm from "./components/pages/Home/UserStepperForm";
+import UserStepperForm from "./components/pages/Home/Home";
 
 export const metadata = {
   title: "User Stepper Form Page",
