@@ -78,7 +78,7 @@ const UserStepperForm: React.FC = () => {
       </header>
 
       <div className="bg-white">
-        <div className="h-2 w-full bg-gray-200 rounded-full overflow-hidden">
+        <div className="h-2 w-full bg-gray-200  overflow-hidden">
           <div
             className="h-full bg-green-500 transition-all duration-500 ease-in-out"
             style={{ width: `${(step / STEP.CONFIRMATION) * 100}%` }}
