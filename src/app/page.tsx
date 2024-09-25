@@ -1,4 +1,4 @@
-import UserStepperForm from "./components/pages/Home/Home";
+import UserStepperForm from "../components/pages/Home/Home";
 
 export const metadata = {
   title: "User Stepper Form Page",
